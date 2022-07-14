@@ -27,10 +27,6 @@ def main():
     l = [0, 1, 2]
     print(l[3])
 
-    # Commit out of range error
-    l = [0, 1, 2, 3]
-    print(l[4])
-
 
 if __name__ == "__main__":
     main()
