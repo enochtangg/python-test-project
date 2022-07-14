@@ -23,6 +23,10 @@ def main():
 
     division_by_zero = 1 / 0
 
+    # Commit out of range error
+    l = [0, 1, 2]
+    print(l[3])
+
 
 if __name__ == "__main__":
     main()
